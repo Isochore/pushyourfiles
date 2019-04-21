@@ -1,0 +1,39 @@
+<mjml>
+  <mj-body>
+    <mj-raw>
+       </mj-raw>
+    <mj-section >
+   <mj-column width="600px">
+    </mj-column>
+        </mj-section>
+    <mj-raw>
+      <!-- Company Header -->
+    </mj-raw>
+    <mj-section background-color="#fafafa">
+       <mj-image src="http://www.fb.iaka.net/IMG/jpg/joyeux_noel_0003_banniere.jpg" alt="joyeux noel"></mj-image>
+      <mj-column>
+        <mj-text align="center" font-style="italic"   font-size="20px" color="#626262">Push Your Files vous informe</mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fafafa">
+      <mj-column width="400px">
+        <mj-text font-style="italic" font-size="22px" font-family="Helvetica Neue" color="#626262">Bonjour,</mj-text>
+        <mj-text font-size="16px"color="#525252">Vous trouverez ci-joint le lien pour télécharger votre fichier, vous pouvez aussi copier/coller celui-ci dans votre navigateur internet. </mj-text>
+        <mj-button background-color="#c01013" href="{{ url }}">Lien de téléchargement</mj-button>
+        <mj-text font-size="12px" align="center">{{url}}</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+
+      <!-- Side image -->
+    </mj-raw>
+        </mj-raw>
+    <mj-section background-color="#fafafa">
+      <mj-column width="400px">
+        <mj-text  font-size="13px" font-family="Helvetica Neue" color="#626262">L'équipe de Push Your Files vous remercie de votre confiance. </mj-text>
+        <mj-text font-size="12px" color="#525252" font-family="Helvetica Neue">Nous mettons tout en oeuvre pour vous protéger et sécuriser vos données.
+        </mj-text>
+       </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>

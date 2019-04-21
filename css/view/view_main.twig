@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <base href="{{base_url}}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>wetransfer Groupe 2</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id="main" class="img-fluid">
+<img src="media/pyf.jpg">
+  <div class="wrapper">
+    
+    <form id="contact" action="upload/result" method="post" enctype="multipart/form-data">
+      <h3>Transférer vos fichiers</h3>
+      <h4 class="text-center">(2 Mo maximum)</h4>
+      <fieldset>
+        <label class="custom-file-upload" for="fichier"><br /><img id="photo" src="media/plus.png"></label>
+        <h7 class="filename">&nbsp;&nbsp;Ajouter des fichiers</h7>
+        <input type="file" name="fichier" id="fichier" /><br />
+        <input type="hidden" name="MAX_FILE_SIZE" value="2097152">
+      </fieldset>
+      <fieldset>
+        <input type="text" name="destinataire" placeholder="Email destinataire"></input>
+      </fieldset>
+      <fieldset>
+        <input type="text" name="destinataire2" placeholder="Email Copie"></input>
+      </fieldset>
+      <fieldset>
+        <button name="submit" href="upload/result" type="submit" id="envoi" data-submit="...Sending">Envoyer</button>
+      </fieldset>
+    </form>
+
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>         
+<script src="js/upload.js"></script>
+</body>
+</html>

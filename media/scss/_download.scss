@@ -1,0 +1,59 @@
+#upload {
+  
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background-image: url(../media/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+
+.bienvenue{
+color: #c01013;
+display: flex;
+justify-content: center;
+}
+.fichier{
+  color: #aaa;
+  display: flex;
+  text-align: center;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-primary{
+  background-color: #c01013;
+  border-color:#c01013;
+
+&:hover{
+ 
+border: 1px solid #c01013;
+  color: #c01013;
+  background-color: white;
+  border-color: #c01013;
+
+}
+&:active{
+ 
+  color: #c01013 !important;
+  background-color: white !important;
+  border-color: #c01013 !important;
+}
+&:focus{
+box-shadow: 0 0 0 0.2rem #c01013 !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #c01013;
+  background-color: white;
+  border-color: #c01013;
+
+}
+}
